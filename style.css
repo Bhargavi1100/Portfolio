@@ -139,6 +139,35 @@ a {
     background-color:  rgb(218, 96, 96);
 }
 
+/*experience*/
+#certificate {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    margin: 30px;
+}
+
+#certificate h2 {
+    color: white;
+}
+
+.certificate-container {
+    margin-bottom: 20px;
+}
+
+.certificate-container .btn {
+    border: 2px solid rgb(218, 96, 96);
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.certificate-container .btn:hover {
+    background-color:  rgb(218, 96, 96);
+}
+
 /*education*/
 #education{
     background-color: black;
@@ -237,6 +266,11 @@ hr {
         height: 150px;
     }
 
+    .header_carousel img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
     .skills-container {
         flex-direction: column;
         gap: 30px;
@@ -255,6 +289,10 @@ hr {
         margin-right: 5px; /* Further reduce margin */
     }
 
+    .header_carousel img {
+        height: 150px;
+        object-fit: cover;
+      }
     .home-container {
         padding: 10px; /* Reduce padding for home section */
     }
