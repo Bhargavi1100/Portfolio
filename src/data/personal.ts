@@ -2,10 +2,10 @@ import type { PersonalInfo, NavItem } from "@/types";
 
 export const personalInfo: PersonalInfo = {
   name: "Bhargavi K Pai",
-  title: "Data Analyst",
+  title: "FinTech Data Analyst",
   tagline:
-    "Transforming raw data into actionable insights that drive strategic business decisions.",
-  bio: "Data Analyst with a strong foundation in statistical analysis, data visualization, and business intelligence. BCA graduate (CGPA 9.3, Department Topper) from Kuvempu University with hands-on experience in Python, SQL, and Power BI. Passionate about uncovering patterns in data and building interactive dashboards that empower data-driven decision-making.",
+    "FinTech-focused Data Analyst driving accuracy, automation, and insights in financial operations.",
+  bio: "FinTech-focused Data Analyst with experience in financial data processing, validation, and automation within asset servicing and fund administration. Proficient in Python (Pandas, NumPy), SQL/MySQL, Advanced Excel, and Power BI for KPI tracking, SLA monitoring, and large-scale financial reporting. Currently an Analyst at Northern Trust with a strong foundation in data quality assurance and financial operations.",
   email: "bhargavikpai@example.com",
   location: {
     city: "Karnataka",
@@ -43,14 +43,14 @@ export const navItems: NavItem[] = [
 ];
 
 export const roles = [
-  "Data Analyst",
-  "BI Developer",
-  "Problem Solver",
-  "Insight Explorer",
+  "FinTech Data Analyst",
+  "Automation Enthusiast",
+  "Financial Data Specialist",
+  "BI & Reporting Expert",
 ];
 
 export const quickStats = [
-  { label: "CGPA", value: 9.3, suffix: "/10" },
-  { label: "Projects", value: 3, suffix: "+" },
-  { label: "Certifications", value: 4, suffix: "" },
+  { label: "Accuracy Rate", value: 99, suffix: "%" },
+  { label: "Efficiency Gain", value: 25, suffix: "%" },
+  { label: "Certifications", value: 4, suffix: "+" },
 ];

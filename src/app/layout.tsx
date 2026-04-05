@@ -16,23 +16,26 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Bhargavi K Pai — Data Analyst Portfolio",
+  title: "Bhargavi K Pai — FinTech Data Analyst Portfolio",
   description:
-    "Data Analyst with expertise in Python, SQL, Power BI, and Excel. Explore projects, skills, and insights from a BCA graduate with 9.3 CGPA.",
+    "FinTech Data Analyst at Northern Trust with expertise in Python, SQL, Power BI, fund administration, and financial data automation. Explore projects, skills, and professional experience.",
   keywords: [
-    "data analyst",
+    "fintech data analyst",
     "portfolio",
     "Python",
     "SQL",
     "Power BI",
     "Bhargavi K Pai",
-    "data visualization",
+    "fund administration",
+    "Northern Trust",
+    "financial reporting",
+    "data automation",
   ],
   authors: [{ name: "Bhargavi K Pai" }],
   openGraph: {
-    title: "Bhargavi K Pai — Data Analyst Portfolio",
+    title: "Bhargavi K Pai — FinTech Data Analyst Portfolio",
     description:
-      "Data Analyst with expertise in Python, SQL, Power BI, and Excel.",
+      "FinTech Data Analyst at Northern Trust — Python, SQL, Power BI, fund administration.",
     url: "https://bhargavikpai.dev",
     siteName: "Bhargavi K Pai Portfolio",
     locale: "en_US",
@@ -40,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bhargavi K Pai — Data Analyst Portfolio",
+    title: "Bhargavi K Pai — FinTech Data Analyst Portfolio",
     description:
-      "Data Analyst with expertise in Python, SQL, Power BI, and Excel.",
+      "FinTech Data Analyst at Northern Trust — Python, SQL, Power BI, fund administration.",
   },
   robots: { index: true, follow: true },
 };
@@ -74,7 +77,7 @@ export default function RootLayout({
               "@type": "Person",
               name: "Bhargavi K Pai",
               url: "https://bhargavi-portfolio.vercel.app",
-              jobTitle: "Data Analyst | Web Developer",
+              jobTitle: "FinTech Data Analyst | Analyst at Northern Trust",
               sameAs: [
                 "https://github.com/Bhargavi1100",
                 "https://www.linkedin.com/in/bhargavi-k-pai-b44423287/",

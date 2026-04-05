@@ -4,7 +4,8 @@ export type SkillCategory =
   | "visualization"
   | "web"
   | "tools"
-  | "soft";
+  | "soft"
+  | "finance";
 
 export interface Skill {
   name: string;

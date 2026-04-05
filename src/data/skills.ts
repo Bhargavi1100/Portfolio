@@ -2,6 +2,48 @@ import type { SkillGroup } from "@/types";
 
 export const skillGroups: SkillGroup[] = [
   {
+    category: "finance",
+    title: "Financial & Domain",
+    description: "FinTech domain expertise in fund administration, investment operations, and financial reporting",
+    skills: [
+      {
+        name: "Fund Administration",
+        icon: "landmark",
+        proficiency: 88,
+        category: "finance",
+        description: "NAV calculation, fund accounting, investor reporting, regulatory compliance",
+      },
+      {
+        name: "Trade Settlements & Reconciliation",
+        icon: "arrow-left-right",
+        proficiency: 90,
+        category: "finance",
+        description: "Trade lifecycle, settlement processing, break resolution, data reconciliation",
+      },
+      {
+        name: "Asset Valuation & NAV",
+        icon: "trending-up",
+        proficiency: 85,
+        category: "finance",
+        description: "Net Asset Value computation, asset pricing, investment portfolio valuation",
+      },
+      {
+        name: "Financial Reporting",
+        icon: "file-bar-chart",
+        proficiency: 88,
+        category: "finance",
+        description: "KPI tracking, SLA monitoring, regulatory submissions, large-scale reporting",
+      },
+      {
+        name: "Data Quality & Governance",
+        icon: "shield-check",
+        proficiency: 92,
+        category: "finance",
+        description: "Data validation, quality assurance, discrepancy analysis, compliance checks",
+      },
+    ],
+  },
+  {
     category: "analytics",
     title: "Analytics & BI",
     description: "Data analysis, visualization, and business intelligence tools",

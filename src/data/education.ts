@@ -74,6 +74,26 @@ export const certifications: Certification[] = [
 
 export const internships: Internship[] = [
   {
+    id: "northern-trust",
+    company: "Northern Trust – India",
+    role: "Analyst I",
+    startDate: "May 2025",
+    endDate: "Present",
+    type: "on-site",
+    description:
+      "Asset Servicing / Fund Administration / Data Delivery team — processing and validating high-volume financial datasets with a focus on accuracy, automation, and SLA compliance.",
+    responsibilities: [
+      "Processed and validated high-volume financial datasets (trade settlements, fund NAV, asset valuations) with 98–99% accuracy, ensuring full SLA compliance within fund administration operations",
+      "Performed data cleaning, structuring, and validation to maintain high-quality datasets for daily financial reporting and regulatory submissions",
+      "Tracked KPIs and monitored SLA performance across multiple fund administration workflows, identifying bottlenecks and ensuring on-time delivery",
+      "Conducted root cause analysis on data discrepancies and reconciliation failures, implementing corrective measures that reduced rework by 20%",
+      "Developed Python-based automation scripts (Pandas, NumPy) for data validation and reconciliation workflows, improving efficiency by 20–25% and reducing manual intervention",
+      "Leveraged Microsoft Copilot to accelerate report summarization, automate repetitive analytical tasks, and draft structured data commentary — significantly reducing turnaround time on deliverables",
+      "Collaborated with cross-functional teams including operations, compliance, and technology to improve data workflows and reporting accuracy",
+    ],
+    skills: ["Python", "Pandas", "NumPy", "SQL", "Power BI", "Excel", "Fund Administration", "Data Reconciliation", "Microsoft Copilot"],
+  },
+  {
     id: "accenture-forage",
     company: "Accenture North America",
     role: "Data Analytics & Visualization — Job Simulation",

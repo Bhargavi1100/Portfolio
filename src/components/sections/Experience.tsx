@@ -14,7 +14,7 @@ function Experience() {
       <Container size="lg">
         <SectionHeading
           title="Professional Experience"
-          subtitle="Internships and industry simulations that shaped my skills"
+          subtitle="Full-time roles and industry experiences that shaped my expertise"
         />
 
         <div className="space-y-4">
