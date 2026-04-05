@@ -1,0 +1,46 @@
+export const theme = {
+  colors: {
+    primary: "#2563EB",
+    "primary-light": "#3B82F6",
+    "primary-dark": "#1D4ED8",
+    secondary: "#8B5CF6",
+    accent: "#F59E0B",
+    surface: "#F8FAFC",
+    "surface-dark": "#0F172A",
+    foreground: "#0F172A",
+    "foreground-dark": "#F1F5F9",
+    muted: "#64748B",
+    success: "#10B981",
+    error: "#EF4444",
+    card: "#FFFFFF",
+    "card-dark": "#1E293B",
+    border: "#E2E8F0",
+    "border-dark": "#334155",
+  },
+  typography: {
+    xs: "0.75rem",
+    sm: "0.875rem",
+    base: "1rem",
+    lg: "1.125rem",
+    xl: "1.25rem",
+    "2xl": "1.5rem",
+    "3xl": "1.875rem",
+    "4xl": "2.25rem",
+    "5xl": "3rem",
+    hero: "4rem",
+  },
+  animation: {
+    fast: "150ms",
+    normal: "300ms",
+    slow: "500ms",
+    slower: "700ms",
+  },
+  gradients: {
+    primary: "linear-gradient(135deg, #2563EB 0%, #8B5CF6 100%)",
+    accent: "linear-gradient(135deg, #F59E0B 0%, #EF4444 100%)",
+    surface: "linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%)",
+    dark: "linear-gradient(135deg, #0F172A 0%, #1E293B 100%)",
+  },
+} as const;
+
+export type ThemeColors = typeof theme.colors;
